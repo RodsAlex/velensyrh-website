@@ -1,0 +1,12 @@
+# Robots.txt pour Valensy RH
+# https://www.valensyrh.com
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemaps
+Sitemap: https://www.valensyrh.com/sitemap.xml
+
+# Crawl-delay pour être gentil avec les serveurs
+Crawl-delay: 1
