@@ -1,19 +1,19 @@
 import React from 'react';
 import { ViewType } from './types';
-import { 
-  Users, 
-  Target, 
-  ShieldCheck, 
-  Gem, 
-  Search, 
-  Briefcase, 
-  TrendingUp, 
+import {
+  Users,
+  Target,
+  ShieldCheck,
+  Gem,
+  Search,
+  Briefcase,
+  TrendingUp,
   UserCheck,
   Factory,
   Building2,
   ShoppingCart,
   Scale,
-  Monitor,
+  Activity,
   HeartHandshake,
   Eye,
   Zap
@@ -81,10 +81,10 @@ export const SERVICES = [
     icon: <Scale />
   },
   {
-    id: 'it',
-    title: "IT & Digital",
-    description: "Recrutement de profils Tech, Data, DSI et chefs de projets pour accompagner votre transformation numérique.",
-    icon: <Monitor />
+    id: 'medical',
+    title: "Médical",
+    description: "Recrutement de médecins, infirmiers, aides-soignants et personnels administratifs pour établissements de santé.",
+    icon: <Activity />
   }
 ];
 
